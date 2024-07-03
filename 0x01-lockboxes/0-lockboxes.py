@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+"""Defines canUnlockAll function"""
 
 
 def canUnlockAll(boxes):
-    """Determines if all the boxes can be opened"""
+    """Return True if all boxes can be opened, else return False"""
     unlocked_boxes = [0]
     keys = []
     keys.extend(boxes[0])
